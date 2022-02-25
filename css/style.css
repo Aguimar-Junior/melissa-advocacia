@@ -1,0 +1,134 @@
+body{
+    background: #18212A;
+}
+
+.adesivo{
+    width: 420px;
+}
+
+.titulo-texto{
+    color: #d3d3d3;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 100px;
+   
+}
+
+.texto{
+    color: #d3d3d3;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+legend{
+    text-align: center;
+}
+
+.caixa-form{
+    border: solid 2px #DA6F21;
+    color: #d3d3d3;
+    display: grid;
+    font-size: 20px;
+    left: 1100px;
+    padding: 10px;
+    position: absolute;
+    width: 300px;
+    top: 200px;
+}
+
+.botao{
+    background: #DA6F21;
+    border: none;
+    color: #d3d3d3;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 5px;
+    transition: 0.5s all;
+}
+
+.botao:hover{
+    background-color: #DA6F21;;
+    border: none;
+    color: #d3d3d3;
+    font-weight: bold;
+    padding: 10px;
+    transform: scale(1,1);
+
+}
+
+#legenda{
+    font-size: 15px;
+}
+
+.campo{
+    background-color: #d3d3d3;
+    border: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.campo:focus {
+    padding: 10px;
+}
+
+#btn{
+    background-color: #18212A;
+    border: solid 2px #DA6F21;
+    color: #d3d3d3;
+    cursor: pointer;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-style: italic;
+    padding: 20px;
+    position: absolute;
+    transition: 0.5s all;
+}
+
+#btn:hover{
+    background: #DA6F21;
+    font-weight: bold;
+}
+
+
+#saiba-mais{ 
+    display: none;
+    padding: 10px;
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 220px;
+}
+
+.titulo-saiba-mais{
+    font-style: italic;
+    font-size: 25px;
+    color: #DA6F21;
+    text-align: center;
+}
+
+.subtitulo{
+    color: #d3d3d3;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.texto-saiba-mais{
+    color: #d3d3d3;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.roda-pe{
+    color: #d3d3d3;
+    margin-top: 240px;
+    text-align: center;
+}
+
+
